@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite with execution via Test Cloud,Windows - Chrome 118.0.0.0,,,11-01-2024 06:49:02,11-01-2024 06:50:56,1m - 53.310s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login,Windows - Chrome 118.0.0.0,"Verify if users can login successful. 
+
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login",,11-01-2024 06:49:03,11-01-2024 06:49:48,45.195s,PASSED
+"comment(""Story: Login to CURA system"")",Windows - Chrome 118.0.0.0,,,11-01-2024 06:49:03,11-01-2024 06:49:03,0.075s,PASSED
+"comment(""Given that the user has the valid login information"")",Windows - Chrome 118.0.0.0,,,11-01-2024 06:49:03,11-01-2024 06:49:03,0.003s,PASSED
+openBrowser(G_SiteURL),Windows - Chrome 118.0.0.0,,,11-01-2024 06:49:03,11-01-2024 06:49:34,30.569s,PASSED
+"click(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""))",Windows - Chrome 118.0.0.0,,,11-01-2024 06:49:34,11-01-2024 06:49:36,2.168s,PASSED
+"setText(findTestObject(""Page_Login/txt_UserName""), Username)",Windows - Chrome 118.0.0.0,,,11-01-2024 06:49:36,11-01-2024 06:49:39,2.820s,PASSED
+"setText(findTestObject(""Page_Login/txt_Password""), Password)",Windows - Chrome 118.0.0.0,,,11-01-2024 06:49:39,11-01-2024 06:49:42,2.869s,PASSED
+"comment(""When he logins to CURA system"")",Windows - Chrome 118.0.0.0,,,11-01-2024 06:49:42,11-01-2024 06:49:42,0.003s,PASSED
+"click(findTestObject(""Page_Login/btn_Login""))",Windows - Chrome 118.0.0.0,,,11-01-2024 06:49:42,11-01-2024 06:49:43,1.741s,PASSED
+"comment(""Then he should be able to login successfully"")",Windows - Chrome 118.0.0.0,,,11-01-2024 06:49:43,11-01-2024 06:49:43,0.001s,PASSED
+"landingPage = verifyElementPresent(findTestObject(""Page_CuraAppointment/div_Appointment""), G_Timeout)",Windows - Chrome 118.0.0.0,,,11-01-2024 06:49:43,11-01-2024 06:49:45,1.352s,PASSED
+closeBrowser(),Windows - Chrome 118.0.0.0,,,11-01-2024 06:49:45,11-01-2024 06:49:46,0.993s,PASSED
+Video,Windows - Chrome 118.0.0.0,,,11-01-2024 06:49:48,11-01-2024 06:49:48,0.001s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC2_Verify Successful Appointment,Windows - Chrome 118.0.0.0,"Verify if users can book an appointment sucessfully.
+Pre-condition: Users have already logged in
+
+Steps:
+- Fill in appoinment's information
+- Click on appointment's button
+
+Expected results:
+Appointment Confirmation page is displayed",,11-01-2024 06:49:48,11-01-2024 06:50:56,1m - 7.953s,PASSED
+"comment(""Story: Book an appointment"")",Windows - Chrome 118.0.0.0,,,11-01-2024 06:49:48,11-01-2024 06:49:48,0.007s,PASSED
+"comment(""Given that the user has logged into their account"")",Windows - Chrome 118.0.0.0,,,11-01-2024 06:49:48,11-01-2024 06:49:48,0.002s,PASSED
+openBrowser(G_SiteURL),Windows - Chrome 118.0.0.0,,,11-01-2024 06:49:48,11-01-2024 06:50:13,25.553s,PASSED
+"callTestCase(findTestCase(""Common Test Cases/Login""), [""Username"":""John Doe"", ""Password"":""ThisIsNotAPassword""], STOP_ON_FAILURE)",Windows - Chrome 118.0.0.0,,,11-01-2024 06:50:13,11-01-2024 06:50:26,12.929s,PASSED
+"comment(""And Appointment page is displayed"")",Windows - Chrome 118.0.0.0,,,11-01-2024 06:50:26,11-01-2024 06:50:26,0.002s,PASSED
+if (true),Windows - Chrome 118.0.0.0,,,11-01-2024 06:50:26,11-01-2024 06:50:40,13.151s,PASSED
+"comment(""When he fills in valid information in Appointment page"")",Windows - Chrome 118.0.0.0,,,11-01-2024 06:50:40,11-01-2024 06:50:40,0.002s,PASSED
+"click(findTestObject(""Page_CuraAppointment/btn_BookAppointment""))",Windows - Chrome 118.0.0.0,,,11-01-2024 06:50:40,11-01-2024 06:50:41,1.567s,PASSED
+"verifyTextPresent(""Appointment Confirmation"", false)",Windows - Chrome 118.0.0.0,,,11-01-2024 06:50:41,11-01-2024 06:50:43,1.641s,PASSED
+"comment(""Then he should be able to book a new appointment"")",Windows - Chrome 118.0.0.0,,,11-01-2024 06:50:43,11-01-2024 06:50:43,0.001s,PASSED
+if (true),Windows - Chrome 118.0.0.0,,,11-01-2024 06:50:43,11-01-2024 06:50:51,7.879s,PASSED
+takeScreenshot(),Windows - Chrome 118.0.0.0,,,11-01-2024 06:50:51,11-01-2024 06:50:53,2.078s,PASSED
+closeBrowser(),Windows - Chrome 118.0.0.0,,,11-01-2024 06:50:53,11-01-2024 06:50:54,0.852s,PASSED
+Video,Windows - Chrome 118.0.0.0,,,11-01-2024 06:50:56,11-01-2024 06:50:56,0.006s,PASSED

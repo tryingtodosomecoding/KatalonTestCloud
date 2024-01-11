@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20240111_064856</name>
+   <tag></tag>
+   <displayName>20240111_064856</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20240111_064856/Test Suite with execution via Test Cloud/20240111_064857</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudEnvironment</key>
+                  <value>{
+  &quot;id&quot;: 285,
+  &quot;osDisplayName&quot;: &quot;Windows&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;118&quot;,
+  &quot;os&quot;: &quot;windows&quot;,
+  &quot;timeout&quot;: 15,
+  &quot;usingTunnel&quot;: false
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20240111_064856/healthcare-tests - TS_RegressionTest/20240111_064859</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudEnvironment</key>
+                  <value>{
+  &quot;id&quot;: 283,
+  &quot;osDisplayName&quot;: &quot;Linux&quot;,
+  &quot;browserName&quot;: &quot;firefox&quot;,
+  &quot;browserDisplayName&quot;: &quot;Firefox&quot;,
+  &quot;browserVersion&quot;: &quot;117&quot;,
+  &quot;os&quot;: &quot;linux&quot;,
+  &quot;timeout&quot;: 15,
+  &quot;usingTunnel&quot;: false
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/Test Suite Collection with execution via Test Cloud</testSuiteCollectionId>
+</ReportCollectionEntity>

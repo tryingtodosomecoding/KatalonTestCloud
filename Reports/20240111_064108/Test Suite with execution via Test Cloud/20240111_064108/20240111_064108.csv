@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite with execution via Test Cloud,Windows - Edge Chromium 118,,,11-01-2024 06:41:11,11-01-2024 06:43:06,1m - 55.147s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login,Windows - Edge Chromium 118,"Verify if users can login successful. 
+
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login",,11-01-2024 06:41:11,11-01-2024 06:42:00,48.409s,PASSED
+"comment(""Story: Login to CURA system"")",Windows - Edge Chromium 118,,,11-01-2024 06:41:12,11-01-2024 06:41:12,0.031s,PASSED
+"comment(""Given that the user has the valid login information"")",Windows - Edge Chromium 118,,,11-01-2024 06:41:12,11-01-2024 06:41:12,0.004s,PASSED
+openBrowser(G_SiteURL),Windows - Edge Chromium 118,,,11-01-2024 06:41:12,11-01-2024 06:41:46,33.866s,PASSED
+"click(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""))",Windows - Edge Chromium 118,,,11-01-2024 06:41:46,11-01-2024 06:41:48,2.004s,PASSED
+"setText(findTestObject(""Page_Login/txt_UserName""), Username)",Windows - Edge Chromium 118,,,11-01-2024 06:41:48,11-01-2024 06:41:51,2.798s,PASSED
+"setText(findTestObject(""Page_Login/txt_Password""), Password)",Windows - Edge Chromium 118,,,11-01-2024 06:41:51,11-01-2024 06:41:54,3.120s,PASSED
+"comment(""When he logins to CURA system"")",Windows - Edge Chromium 118,,,11-01-2024 06:41:54,11-01-2024 06:41:54,0.005s,PASSED
+"click(findTestObject(""Page_Login/btn_Login""))",Windows - Edge Chromium 118,,,11-01-2024 06:41:54,11-01-2024 06:41:56,1.436s,PASSED
+"comment(""Then he should be able to login successfully"")",Windows - Edge Chromium 118,,,11-01-2024 06:41:56,11-01-2024 06:41:56,0.005s,PASSED
+"landingPage = verifyElementPresent(findTestObject(""Page_CuraAppointment/div_Appointment""), G_Timeout)",Windows - Edge Chromium 118,,,11-01-2024 06:41:56,11-01-2024 06:41:57,1.160s,PASSED
+closeBrowser(),Windows - Edge Chromium 118,,,11-01-2024 06:41:57,11-01-2024 06:41:58,0.736s,PASSED
+Video,Windows - Edge Chromium 118,,,11-01-2024 06:42:00,11-01-2024 06:42:00,0.000s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC2_Verify Successful Appointment,Windows - Edge Chromium 118,"Verify if users can book an appointment sucessfully.
+Pre-condition: Users have already logged in
+
+Steps:
+- Fill in appoinment's information
+- Click on appointment's button
+
+Expected results:
+Appointment Confirmation page is displayed",,11-01-2024 06:42:00,11-01-2024 06:43:06,1m - 6.631s,PASSED
+"comment(""Story: Book an appointment"")",Windows - Edge Chromium 118,,,11-01-2024 06:42:00,11-01-2024 06:42:00,0.002s,PASSED
+"comment(""Given that the user has logged into their account"")",Windows - Edge Chromium 118,,,11-01-2024 06:42:00,11-01-2024 06:42:00,0.001s,PASSED
+openBrowser(G_SiteURL),Windows - Edge Chromium 118,,,11-01-2024 06:42:00,11-01-2024 06:42:24,24.420s,PASSED
+"callTestCase(findTestCase(""Common Test Cases/Login""), [""Username"":""John Doe"", ""Password"":""ThisIsNotAPassword""], STOP_ON_FAILURE)",Windows - Edge Chromium 118,,,11-01-2024 06:42:24,11-01-2024 06:42:34,10.305s,PASSED
+"comment(""And Appointment page is displayed"")",Windows - Edge Chromium 118,,,11-01-2024 06:42:34,11-01-2024 06:42:34,0.001s,PASSED
+if (true),Windows - Edge Chromium 118,,,11-01-2024 06:42:34,11-01-2024 06:42:50,15.063s,PASSED
+"comment(""When he fills in valid information in Appointment page"")",Windows - Edge Chromium 118,,,11-01-2024 06:42:50,11-01-2024 06:42:50,0.002s,PASSED
+"click(findTestObject(""Page_CuraAppointment/btn_BookAppointment""))",Windows - Edge Chromium 118,,,11-01-2024 06:42:50,11-01-2024 06:42:52,2.405s,PASSED
+"verifyTextPresent(""Appointment Confirmation"", false)",Windows - Edge Chromium 118,,,11-01-2024 06:42:52,11-01-2024 06:42:53,1.542s,PASSED
+"comment(""Then he should be able to book a new appointment"")",Windows - Edge Chromium 118,,,11-01-2024 06:42:53,11-01-2024 06:42:53,0.001s,PASSED
+if (true),Windows - Edge Chromium 118,,,11-01-2024 06:42:53,11-01-2024 06:43:01,7.363s,PASSED
+takeScreenshot(),Windows - Edge Chromium 118,,,11-01-2024 06:43:01,11-01-2024 06:43:04,2.683s,PASSED
+closeBrowser(),Windows - Edge Chromium 118,,,11-01-2024 06:43:04,11-01-2024 06:43:04,0.740s,PASSED
+Video,Windows - Edge Chromium 118,,,11-01-2024 06:43:06,11-01-2024 06:43:06,0.001s,PASSED

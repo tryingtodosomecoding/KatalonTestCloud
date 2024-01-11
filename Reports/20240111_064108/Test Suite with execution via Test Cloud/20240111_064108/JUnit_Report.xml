@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite with execution via Test Cloud" time="115.147" tests="2" failures="0" errors="0">
+   <testsuite name="Test Suite with execution via Test Cloud" tests="2" failures="0" errors="0" time="115.147" skipped="0" timestamp="11-01-2024T06:41:11" hostname="lakshmimukkur - lakshmis-mbp.ht.home" id="Test Suites/Test Suite with execution via Test Cloud">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="/Users/lakshmimukkur/Katalon Studio/Sample Project with Test Cloud/Reports/20240111_064108/Test Suite with execution via Test Cloud/20240111_064108"/>
+         <property name="logFiles" value="/Users/lakshmimukkur/Katalon Studio/Sample Project with Test Cloud/Reports/20240111_064108/Test Suite with execution via Test Cloud/20240111_064108/execution0.log"/>
+         <property name="attachments" value="/Users/lakshmimukkur/Katalon Studio/Sample Project with Test Cloud/Reports/20240111_064108/Test Suite with execution via Test Cloud/20240111_064108/1704973382932.png"/>
+         <property name="hostName" value="lakshmimukkur - lakshmis-mbp.ht.home"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;platform&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;requestId&quot;: &quot;a1fa0343-cff9-4f2f-a36e-80a786f1b583&quot;,&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;Chromium&quot;,&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;browserName&quot;: &quot;msedge&quot;,&#xa;  &quot;javascriptEnabled&quot;: true,&#xa;  &quot;katalon:option&quot;: {&#xa;    &quot;unlimitedExecutionMinutes&quot;: true,&#xa;    &quot;userId&quot;: 1264122,&#xa;    &quot;organizationId&quot;: &quot;1208479&quot;,&#xa;    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;usingTunnel&quot;: false&#xa;  },&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;ms:edgeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:58339&quot;&#xa;  },&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;os&quot;: &quot;windows&quot;,&#xa;  &quot;msedge&quot;: {&#xa;    &quot;msedgedriverVersion&quot;: &quot;118.0.2088.46 (175bd6acfc465368ac94f3eaef282fbbc53f9b96)&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Program Files (x86)\\scoped_dir5756_1290636064&quot;&#xa;  },&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;***:loadExtension&quot;: [&#xa;    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;&#xa;  ],&#xa;  &quot;version&quot;: &quot;118&quot;,&#xa;  &quot;se:cdp&quot;: &quot;ws://172.48.10.4:4444/session/5895a7f07d67b172e422ab2486751609/se/cdp&quot;,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;DIRECT&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;webdriver.remote.sessionid&quot;: &quot;5895a7f07d67b172e422ab2486751609&quot;,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Edge Chromium 118"/>
+         <property name="hostAddress" value="192.168.0.142"/>
+         <property name="sessionId" value="5895a7f07d67b172e422ab2486751609"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/TC1_Verify Successful Login" time="48.409" classname="Test Cases/Main Test Cases/TC1_Verify Successful Login" status="PASSED">
+         <system-out><![CDATA[11-01-2024T06:41:11 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC1_Verify Successful Login: Test Cases/Main Test Cases/TC1_Verify Successful Login
+
+11-01-2024T06:41:12 - [TEST_STEP][PASSED] - comment("Story: Login to CURA system"): Story: Login to CURA system
+
+11-01-2024T06:41:12 - [MESSAGE][INFO] - Story: Login to CURA system
+
+11-01-2024T06:41:12 - [TEST_STEP][PASSED] - comment("Given that the user has the valid login information"): Given that the user has the valid login information
+
+11-01-2024T06:41:12 - [MESSAGE][INFO] - Given that the user has the valid login information
+
+11-01-2024T06:41:12 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://demoaut.katalon.com'
+
+11-01-2024T06:41:13 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+11-01-2024T06:41:13 - [MESSAGE][INFO] - User set preference: ['browserName', 'msedge']
+
+11-01-2024T06:41:13 - [MESSAGE][INFO] - User set preference: ['browserVersion', '118']
+
+11-01-2024T06:41:13 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1208479, tunnelId=, usingTunnel=false}']
+
+11-01-2024T06:41:13 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+11-01-2024T06:41:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-01-2024T06:41:46 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+11-01-2024T06:41:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_CuraHomepage/btn_MakeAppointment")): Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+11-01-2024T06:41:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+11-01-2024T06:41:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), Username): Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+11-01-2024T06:41:51 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+11-01-2024T06:41:51 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+11-01-2024T06:41:54 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+11-01-2024T06:41:54 - [TEST_STEP][PASSED] - comment("When he logins to CURA system"): When he logins to CURA system
+
+11-01-2024T06:41:54 - [MESSAGE][INFO] - When he logins to CURA system
+
+11-01-2024T06:41:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+11-01-2024T06:41:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+11-01-2024T06:41:56 - [TEST_STEP][PASSED] - comment("Then he should be able to login successfully"): Then he should be able to login successfully
+
+11-01-2024T06:41:56 - [MESSAGE][INFO] - Then he should be able to login successfully
+
+11-01-2024T06:41:56 - [TEST_STEP][PASSED] - landingPage = verifyElementPresent(findTestObject("Page_CuraAppointment/div_Appointment"), G_Timeout): Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+11-01-2024T06:41:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+11-01-2024T06:41:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-01-2024T06:41:58 - [MESSAGE][PASSED] - Browser is closed
+
+11-01-2024T06:42:00 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Main Test Cases/TC1_Verify Successful Login' .
+
+11-01-2024T06:42:00 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Main Test Cases/TC1_Verify Successful Login' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/TC2_Verify Successful Appointment" time="66.631" classname="Test Cases/Main Test Cases/TC2_Verify Successful Appointment" status="PASSED">
+         <system-out><![CDATA[11-01-2024T06:42:00 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC2_Verify Successful Appointment: Test Cases/Main Test Cases/TC2_Verify Successful Appointment
+
+11-01-2024T06:42:00 - [TEST_STEP][PASSED] - comment("Story: Book an appointment"): Story: Book an appointment
+
+11-01-2024T06:42:00 - [MESSAGE][INFO] - Story: Book an appointment
+
+11-01-2024T06:42:00 - [TEST_STEP][PASSED] - comment("Given that the user has logged into their account"): Given that the user has logged into their account
+
+11-01-2024T06:42:00 - [MESSAGE][INFO] - Given that the user has logged into their account
+
+11-01-2024T06:42:00 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://demoaut.katalon.com'
+
+11-01-2024T06:42:00 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+11-01-2024T06:42:00 - [MESSAGE][INFO] - User set preference: ['browserName', 'msedge']
+
+11-01-2024T06:42:00 - [MESSAGE][INFO] - User set preference: ['browserVersion', '118']
+
+11-01-2024T06:42:00 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1208479, tunnelId=, usingTunnel=false}']
+
+11-01-2024T06:42:00 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+11-01-2024T06:42:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-01-2024T06:42:24 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+11-01-2024T06:42:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Test Cases/Login"), ["Username":"John Doe", "Password":"ThisIsNotAPassword"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+11-01-2024T06:42:24 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login: Test Cases/Common Test Cases/Login
+
+11-01-2024T06:42:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_CuraHomepage/btn_MakeAppointment")): Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+11-01-2024T06:42:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+11-01-2024T06:42:26 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), Username): Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+11-01-2024T06:42:29 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+11-01-2024T06:42:29 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+11-01-2024T06:42:31 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+11-01-2024T06:42:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+11-01-2024T06:42:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+11-01-2024T06:42:33 - [TEST_STEP][PASSED] - landingPage = verifyElementPresent(findTestObject("Page_CuraAppointment/div_Appointment"), G_Timeout): Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+11-01-2024T06:42:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+11-01-2024T06:42:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+11-01-2024T06:42:34 - [TEST_STEP][PASSED] - comment("And Appointment page is displayed"): And Appointment page is displayed
+
+11-01-2024T06:42:34 - [MESSAGE][INFO] - And Appointment page is displayed
+
+11-01-2024T06:42:34 - [TEST_STEP][PASSED] - if (true): Text 'Please make appointment as soon as possible.' is set on object 'Object Repository/Page_CuraAppointment/txt_Comment'
+
+11-01-2024T06:42:34 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Page_CuraAppointment/lst_Facility"), "Hongkong CURA Healthcare Center", false): All options with label 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CuraAppointment/lst_Facility' 
+
+11-01-2024T06:42:38 - [MESSAGE][PASSED] - All options with label 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CuraAppointment/lst_Facility' 
+
+11-01-2024T06:42:38 - [TEST_STEP][PASSED] - check(findTestObject("Page_CuraAppointment/chk_Medicaid")): Object 'Object Repository/Page_CuraAppointment/chk_Medicaid' is checked
+
+11-01-2024T06:42:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/chk_Medicaid' is checked
+
+11-01-2024T06:42:40 - [TEST_STEP][PASSED] - check(findTestObject("Page_CuraAppointment/chk_Readmission")): Object 'Object Repository/Page_CuraAppointment/chk_Readmission' is checked
+
+11-01-2024T06:42:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/chk_Readmission' is checked
+
+11-01-2024T06:42:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CuraAppointment/txt_VisitDate"), "27/12/2016"): Text '27/12/2016' is set on object 'Object Repository/Page_CuraAppointment/txt_VisitDate'
+
+11-01-2024T06:42:45 - [MESSAGE][PASSED] - Text '27/12/2016' is set on object 'Object Repository/Page_CuraAppointment/txt_VisitDate'
+
+11-01-2024T06:42:45 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CuraAppointment/txt_Comment"), "Please make appointment as soon as possible."): Text 'Please make appointment as soon as possible.' is set on object 'Object Repository/Page_CuraAppointment/txt_Comment'
+
+11-01-2024T06:42:50 - [MESSAGE][PASSED] - Text 'Please make appointment as soon as possible.' is set on object 'Object Repository/Page_CuraAppointment/txt_Comment'
+
+11-01-2024T06:42:50 - [TEST_STEP][PASSED] - comment("When he fills in valid information in Appointment page"): When he fills in valid information in Appointment page
+
+11-01-2024T06:42:50 - [MESSAGE][INFO] - When he fills in valid information in Appointment page
+
+11-01-2024T06:42:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_CuraAppointment/btn_BookAppointment")): Object: 'Object Repository/Page_CuraAppointment/btn_BookAppointment' is clicked on
+
+11-01-2024T06:42:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraAppointment/btn_BookAppointment' is clicked on
+
+11-01-2024T06:42:52 - [TEST_STEP][PASSED] - verifyTextPresent("Appointment Confirmation", false): Text 'Appointment Confirmation' is present on page 
+
+11-01-2024T06:42:53 - [MESSAGE][PASSED] - Text 'Appointment Confirmation' is present on page 
+
+11-01-2024T06:42:53 - [TEST_STEP][PASSED] - comment("Then he should be able to book a new appointment"): Then he should be able to book a new appointment
+
+11-01-2024T06:42:53 - [MESSAGE][INFO] - Then he should be able to book a new appointment
+
+11-01-2024T06:42:53 - [TEST_STEP][PASSED] - if (true): Actual text 'Please make appointment as soon as possible.' and expected text 'Please make appointment as soon as possible.' are matched 
+
+11-01-2024T06:42:53 - [TEST_STEP][PASSED] - verifyMatch("Hongkong CURA Healthcare Center", getText(findTestObject("Page_AppointmentConfirmation/lbl_Facility")), false): Actual text 'Hongkong CURA Healthcare Center' and expected text 'Hongkong CURA Healthcare Center' are matched 
+
+11-01-2024T06:42:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Facility' is: 'Hongkong CURA Healthcare Center'
+
+11-01-2024T06:42:55 - [MESSAGE][PASSED] - Actual text 'Hongkong CURA Healthcare Center' and expected text 'Hongkong CURA Healthcare Center' are matched 
+
+11-01-2024T06:42:55 - [TEST_STEP][PASSED] - verifyMatch("Yes", getText(findTestObject("Page_AppointmentConfirmation/lbl_HospitalReadmission")), false): Actual text 'Yes' and expected text 'Yes' are matched 
+
+11-01-2024T06:42:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_HospitalReadmission' is: 'Yes'
+
+11-01-2024T06:42:57 - [MESSAGE][PASSED] - Actual text 'Yes' and expected text 'Yes' are matched 
+
+11-01-2024T06:42:57 - [TEST_STEP][PASSED] - verifyMatch("Medicaid", getText(findTestObject("Page_AppointmentConfirmation/lbl_Program")), false): Actual text 'Medicaid' and expected text 'Medicaid' are matched 
+
+11-01-2024T06:42:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Program' is: 'Medicaid'
+
+11-01-2024T06:42:58 - [MESSAGE][PASSED] - Actual text 'Medicaid' and expected text 'Medicaid' are matched 
+
+11-01-2024T06:42:58 - [TEST_STEP][PASSED] - verifyMatch("27/12/2016", getText(findTestObject("Page_AppointmentConfirmation/lbl_VisitDate")), false): Actual text '27/12/2016' and expected text '27/12/2016' are matched 
+
+11-01-2024T06:42:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_VisitDate' is: '27/12/2016'
+
+11-01-2024T06:42:59 - [MESSAGE][PASSED] - Actual text '27/12/2016' and expected text '27/12/2016' are matched 
+
+11-01-2024T06:42:59 - [TEST_STEP][PASSED] - verifyMatch("Please make appointment as soon as possible.", getText(findTestObject("Page_AppointmentConfirmation/lbl_Comment")), false): Actual text 'Please make appointment as soon as possible.' and expected text 'Please make appointment as soon as possible.' are matched 
+
+11-01-2024T06:43:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Comment' is: 'Please make appointment as soon as possible.'
+
+11-01-2024T06:43:01 - [MESSAGE][PASSED] - Actual text 'Please make appointment as soon as possible.' and expected text 'Please make appointment as soon as possible.' are matched 
+
+11-01-2024T06:43:01 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+11-01-2024T06:43:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/lakshmimukkur/Katalon Studio/Sample Project with Test Cloud/Reports/20240111_064108/Test Suite with execution via Test Cloud/20240111_064108/1704973382932.png]]
+
+11-01-2024T06:43:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-01-2024T06:43:04 - [MESSAGE][PASSED] - Browser is closed
+
+11-01-2024T06:43:06 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Main Test Cases/TC2_Verify Successful Appointment' .
+
+11-01-2024T06:43:06 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Main Test Cases/TC2_Verify Successful Appointment' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-01-2024T06:41:11 - [TEST_SUITE][PASSED] - Test Suite with execution via Test Cloud: Test Cases/Main Test Cases/TC2_Verify Successful Appointment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

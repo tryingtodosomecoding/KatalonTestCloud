@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite with execution via Test Cloud,Linux - Firefox 117.0,,,2024-01-11 07:00:58,2024-01-11 07:02:44,1m - 45.500s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login,Linux - Firefox 117.0,"Verify if users can login successful. 
+
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login",,2024-01-11 07:00:59,2024-01-11 07:01:42,43.091s,PASSED
+"comment(""Story: Login to CURA system"")",Linux - Firefox 117.0,,,2024-01-11 07:01:01,2024-01-11 07:01:01,0.272s,PASSED
+"comment(""Given that the user has the valid login information"")",Linux - Firefox 117.0,,,2024-01-11 07:01:01,2024-01-11 07:01:01,0.013s,PASSED
+openBrowser(G_SiteURL),Linux - Firefox 117.0,,,2024-01-11 07:01:01,2024-01-11 07:01:30,29.042s,PASSED
+"click(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""))",Linux - Firefox 117.0,,,2024-01-11 07:01:30,2024-01-11 07:01:32,1.602s,PASSED
+"setText(findTestObject(""Page_Login/txt_UserName""), Username)",Linux - Firefox 117.0,,,2024-01-11 07:01:32,2024-01-11 07:01:34,2.386s,PASSED
+"setText(findTestObject(""Page_Login/txt_Password""), Password)",Linux - Firefox 117.0,,,2024-01-11 07:01:34,2024-01-11 07:01:36,2.329s,PASSED
+"comment(""When he logins to CURA system"")",Linux - Firefox 117.0,,,2024-01-11 07:01:36,2024-01-11 07:01:36,0.004s,PASSED
+"click(findTestObject(""Page_Login/btn_Login""))",Linux - Firefox 117.0,,,2024-01-11 07:01:36,2024-01-11 07:01:38,1.246s,PASSED
+"comment(""Then he should be able to login successfully"")",Linux - Firefox 117.0,,,2024-01-11 07:01:38,2024-01-11 07:01:38,0.010s,PASSED
+"landingPage = verifyElementPresent(findTestObject(""Page_CuraAppointment/div_Appointment""), G_Timeout)",Linux - Firefox 117.0,,,2024-01-11 07:01:38,2024-01-11 07:01:39,1.035s,PASSED
+closeBrowser(),Linux - Firefox 117.0,,,2024-01-11 07:01:39,2024-01-11 07:01:40,1.202s,PASSED
+Video,Linux - Firefox 117.0,,,2024-01-11 07:01:42,2024-01-11 07:01:42,0.005s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC2_Verify Successful Appointment,Linux - Firefox 117.0,"Verify if users can book an appointment sucessfully.
+Pre-condition: Users have already logged in
+
+Steps:
+- Fill in appoinment's information
+- Click on appointment's button
+
+Expected results:
+Appointment Confirmation page is displayed",,2024-01-11 07:01:42,2024-01-11 07:02:44,1m - 1.901s,PASSED
+"comment(""Story: Book an appointment"")",Linux - Firefox 117.0,,,2024-01-11 07:01:42,2024-01-11 07:01:42,0.005s,PASSED
+"comment(""Given that the user has logged into their account"")",Linux - Firefox 117.0,,,2024-01-11 07:01:42,2024-01-11 07:01:42,0.001s,PASSED
+openBrowser(G_SiteURL),Linux - Firefox 117.0,,,2024-01-11 07:01:42,2024-01-11 07:02:10,27.332s,PASSED
+"callTestCase(findTestCase(""Common Test Cases/Login""), [""Username"":""John Doe"", ""Password"":""ThisIsNotAPassword""], STOP_ON_FAILURE)",Linux - Firefox 117.0,,,2024-01-11 07:02:10,2024-01-11 07:02:19,9.495s,PASSED
+"comment(""And Appointment page is displayed"")",Linux - Firefox 117.0,,,2024-01-11 07:02:19,2024-01-11 07:02:19,0.002s,PASSED
+if (true),Linux - Firefox 117.0,,,2024-01-11 07:02:19,2024-01-11 07:02:31,11.668s,PASSED
+"comment(""When he fills in valid information in Appointment page"")",Linux - Firefox 117.0,,,2024-01-11 07:02:31,2024-01-11 07:02:31,0.005s,PASSED
+"click(findTestObject(""Page_CuraAppointment/btn_BookAppointment""))",Linux - Firefox 117.0,,,2024-01-11 07:02:31,2024-01-11 07:02:32,1.169s,PASSED
+"verifyTextPresent(""Appointment Confirmation"", false)",Linux - Firefox 117.0,,,2024-01-11 07:02:32,2024-01-11 07:02:33,1.025s,PASSED
+"comment(""Then he should be able to book a new appointment"")",Linux - Firefox 117.0,,,2024-01-11 07:02:33,2024-01-11 07:02:33,0.002s,PASSED
+if (true),Linux - Firefox 117.0,,,2024-01-11 07:02:33,2024-01-11 07:02:40,6.627s,PASSED
+takeScreenshot(),Linux - Firefox 117.0,,,2024-01-11 07:02:40,2024-01-11 07:02:41,1.108s,PASSED
+closeBrowser(),Linux - Firefox 117.0,,,2024-01-11 07:02:41,2024-01-11 07:02:42,1.234s,PASSED
+Video,Linux - Firefox 117.0,,,2024-01-11 07:02:44,2024-01-11 07:02:44,0.001s,PASSED
